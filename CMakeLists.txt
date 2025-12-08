@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(maze_game)
+project(maze-game)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -11,13 +11,13 @@ include_directories(/usr/local/crow/include)
 include_directories(include)
 
 # Define the executable.
-add_executable(maze_game
+add_executable(maze-game
     src/main.cpp
     src/maze.cpp
 )
 
 # Link to the libraries. We rely on apt-get installing these.
-target_link_libraries(maze_game
+target_link_libraries(maze-game
     boost_system
     boost_filesystem
     ssl

@@ -36,5 +36,5 @@ Run the following commands
 ```
 $ cmake ..
 $ make
-$ ./maze.out
+$ ./maze-game
 ```

@@ -32,7 +32,7 @@ RUN cmake . && \
 FROM debian:stable-slim
 
 # Copy the built executable from the builder stage
-COPY --from=builder /app/maze_game /usr/local/bin/maze_game
+COPY --from=builder /app/maze-game /usr/local/bin/maze-game
 
 # Copy the static files, ensuring the directory structure is preserved
 COPY --from=builder /app/static /usr/local/bin/static
@@ -41,4 +41,4 @@ COPY --from=builder /app/static /usr/local/bin/static
 EXPOSE 8080
 
 # Run the application
-CMD ["/usr/local/bin/maze_game"]
+CMD ["/usr/local/bin/maze-game"]
