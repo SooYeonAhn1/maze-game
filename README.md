@@ -1,5 +1,4 @@
 # Maze Game
-![demo](assets/demo.gif)
 
 This is a game that generates a random maze based on user input. The maze is generated using Prim's algorithm and can be solved using WASD keys.
 
