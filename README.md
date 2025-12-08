@@ -19,11 +19,22 @@ There are many other algorithms similar to Prim's, notably Kruskal's. This speci
 * Server Framework: [Crow](https://crowcpp.org/)
 * Front-End: Vanilla JavaScript, HTML, CSS
 
-## To Run the Program
+## Running the Program
+First clone the repository and change directory to the cloned repository
 ```
-mkdir build
-cd build
-cmake ..
-make
-./maze.out
+$ git clone https://github.com/SooYeonAhn1/maze-game
+$ cd maze-game
+```
+
+Enter the build directory
+```
+$ mkdir build # only needs to be done at initial build
+$ cd build
+```
+
+Run the following commands
+```
+$ cmake ..
+$ make
+$ ./maze.out
 ```
