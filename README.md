@@ -1,6 +1,8 @@
 # Maze Game
 This is a game that generates a random maze based on user input. The maze is generated using Prim's algorithm and allows the user to solve the maze using wasd keys.
 
+![demo](assets/demo.gif)
+
 ## Instructions
 
 - This is a single-player game where the player solves the maze
